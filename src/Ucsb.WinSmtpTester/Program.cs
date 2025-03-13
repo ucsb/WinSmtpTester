@@ -9,7 +9,7 @@ try
   Console.WriteLine();
 
   var config = new ConfigurationBuilder()
-    .AddJsonFile("appsettings.json")
+    .AddJsonFile("appsettings.json", optional: true)
     .Build();
 
   var recipientEmail = config["to"] ?? string.Empty;
