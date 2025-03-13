@@ -1,11 +1,16 @@
 ﻿using System.Net;
 using System.Net.Mail;
+using System.Reflection;
 using Microsoft.Extensions.Configuration;
 
 try
 {
-  Console.WriteLine("SMTP Tester");
-  Console.WriteLine("...........");
+  var version = Assembly.GetExecutingAssembly().GetName().Version;
+
+  var versionDisplay = $"v{version!.Major}.{version!.Minor}";
+
+  Console.WriteLine($"UCSB WinSmtpTester {versionDisplay}");
+  Console.WriteLine("........................");
   Console.WriteLine();
 
   var config = new ConfigurationBuilder()
