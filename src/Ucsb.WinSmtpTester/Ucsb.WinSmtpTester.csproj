@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.0</Version>
+    <Version>25.1</Version>
     <Authors>Gary Scott</Authors>
     <Copyright>Regents of the University of California</Copyright>
     <RepositoryUrl>https://github.com/ucsb/WinSmtpTester</RepositoryUrl>
