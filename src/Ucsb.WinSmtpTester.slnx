@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Repo Items/">
+    <File Path="../.gitignore" />
+    <File Path="../LICENSE" />
+    <File Path="../README.md" />
+  </Folder>
+  <Project Path="Ucsb.WinSmtpTester/Ucsb.WinSmtpTester.csproj" />
+</Solution>
